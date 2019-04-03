@@ -1,0 +1,34 @@
+<!--
+<div class="row">
+  <div class="col">
+    <div class="form-group">
+      <label for="">Usuario</label>
+      <input type="text" class="form-control" [(ngModel)]="usuario.usuario">
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label for="">Clave</label>
+      <input type="password" class="form-control" [(ngModel)]="usuario.clave">
+    </div>
+  </div>
+  <div class="col">
+    <button class="btn btn-success" (click)="ingresar()">Ingresar</button>
+  </div>
+</div> -->
+
+
+<div class="card mt-5" style="margin:auto;width: 600px;">
+  <div class="card-body">
+    <h3 class="card-title">Login</h3>
+    <div class="form-group">
+      <label for="">Usuario</label>
+      <input type="text" class="form-control" [(ngModel)]="usuario.usuario">
+    </div>
+    <div class="form-group">
+      <label for="email">Password</label>
+      <input type="password" class="form-control" [(ngModel)]="usuario.clave">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="ingresar()">Login</button>
+  </div>
+</div>

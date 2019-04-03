@@ -1,0 +1,21 @@
+{
+  "name": "miprimerapi",
+  "version": "1.0.0",
+  "description": "Mi Primer API REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/api"
+  },
+  "author": "Jesus Mendoza",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-devkit/build-angular": "^0.13.7",
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.4"
+  }
+}
